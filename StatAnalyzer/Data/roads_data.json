@@ -1,12 +1,457 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿[
+  {
+    "Year": 2009,
+    "Subject": "Московская область",
+    "BadRoadsPercent": 62.4
+  },
+  {
+    "Year": 2010,
+    "Subject": "Московская область",
+    "BadRoadsPercent": 60.1
+  },
+  {
+    "Year": 2011,
+    "Subject": "Московская область",
+    "BadRoadsPercent": 57.8
+  },
+  {
+    "Year": 2012,
+    "Subject": "Московская область",
+    "BadRoadsPercent": 54.3
+  },
+  {
+    "Year": 2013,
+    "Subject": "Московская область",
+    "BadRoadsPercent": 51.0
+  },
+  {
+    "Year": 2014,
+    "Subject": "Московская область",
+    "BadRoadsPercent": 48.7
+  },
+  {
+    "Year": 2015,
+    "Subject": "Московская область",
+    "BadRoadsPercent": 46.2
+  },
+  {
+    "Year": 2016,
+    "Subject": "Московская область",
+    "BadRoadsPercent": 44.5
+  },
+  {
+    "Year": 2017,
+    "Subject": "Московская область",
+    "BadRoadsPercent": 42.1
+  },
+  {
+    "Year": 2018,
+    "Subject": "Московская область",
+    "BadRoadsPercent": 39.8
+  },
+  {
+    "Year": 2019,
+    "Subject": "Московская область",
+    "BadRoadsPercent": 37.4
+  },
+  {
+    "Year": 2020,
+    "Subject": "Московская область",
+    "BadRoadsPercent": 35.9
+  },
+  {
+    "Year": 2021,
+    "Subject": "Московская область",
+    "BadRoadsPercent": 34.1
+  },
+  {
+    "Year": 2022,
+    "Subject": "Московская область",
+    "BadRoadsPercent": 32.7
+  },
+  {
+    "Year": 2023,
+    "Subject": "Московская область",
+    "BadRoadsPercent": 31.5
+  },
 
-namespace StatAnalyzer.Data
-{
-    class roads_data
-    {
-    }
-}
+  {
+    "Year": 2009,
+    "Subject": "Псковская область",
+    "BadRoadsPercent": 78.3
+  },
+  {
+    "Year": 2010,
+    "Subject": "Псковская область",
+    "BadRoadsPercent": 77.1
+  },
+  {
+    "Year": 2011,
+    "Subject": "Псковская область",
+    "BadRoadsPercent": 76.4
+  },
+  {
+    "Year": 2012,
+    "Subject": "Псковская область",
+    "BadRoadsPercent": 75.8
+  },
+  {
+    "Year": 2013,
+    "Subject": "Псковская область",
+    "BadRoadsPercent": 74.9
+  },
+  {
+    "Year": 2014,
+    "Subject": "Псковская область",
+    "BadRoadsPercent": 74.2
+  },
+  {
+    "Year": 2015,
+    "Subject": "Псковская область",
+    "BadRoadsPercent": 73.5
+  },
+  {
+    "Year": 2016,
+    "Subject": "Псковская область",
+    "BadRoadsPercent": 72.8
+  },
+  {
+    "Year": 2017,
+    "Subject": "Псковская область",
+    "BadRoadsPercent": 72.1
+  },
+  {
+    "Year": 2018,
+    "Subject": "Псковская область",
+    "BadRoadsPercent": 71.4
+  },
+  {
+    "Year": 2019,
+    "Subject": "Псковская область",
+    "BadRoadsPercent": 70.9
+  },
+  {
+    "Year": 2020,
+    "Subject": "Псковская область",
+    "BadRoadsPercent": 70.3
+  },
+  {
+    "Year": 2021,
+    "Subject": "Псковская область",
+    "BadRoadsPercent": 69.8
+  },
+  {
+    "Year": 2022,
+    "Subject": "Псковская область",
+    "BadRoadsPercent": 69.2
+  },
+  {
+    "Year": 2023,
+    "Subject": "Псковская область",
+    "BadRoadsPercent": 68.7
+  },
+
+  {
+    "Year": 2009,
+    "Subject": "Краснодарский край",
+    "BadRoadsPercent": 55.6
+  },
+  {
+    "Year": 2010,
+    "Subject": "Краснодарский край",
+    "BadRoadsPercent": 52.3
+  },
+  {
+    "Year": 2011,
+    "Subject": "Краснодарский край",
+    "BadRoadsPercent": 49.7
+  },
+  {
+    "Year": 2012,
+    "Subject": "Краснодарский край",
+    "BadRoadsPercent": 46.8
+  },
+  {
+    "Year": 2013,
+    "Subject": "Краснодарский край",
+    "BadRoadsPercent": 43.5
+  },
+  {
+    "Year": 2014,
+    "Subject": "Краснодарский край",
+    "BadRoadsPercent": 40.2
+  },
+  {
+    "Year": 2015,
+    "Subject": "Краснодарский край",
+    "BadRoadsPercent": 37.6
+  },
+  {
+    "Year": 2016,
+    "Subject": "Краснодарский край",
+    "BadRoadsPercent": 35.1
+  },
+  {
+    "Year": 2017,
+    "Subject": "Краснодарский край",
+    "BadRoadsPercent": 32.8
+  },
+  {
+    "Year": 2018,
+    "Subject": "Краснодарский край",
+    "BadRoadsPercent": 30.4
+  },
+  {
+    "Year": 2019,
+    "Subject": "Краснодарский край",
+    "BadRoadsPercent": 28.9
+  },
+  {
+    "Year": 2020,
+    "Subject": "Краснодарский край",
+    "BadRoadsPercent": 27.5
+  },
+  {
+    "Year": 2021,
+    "Subject": "Краснодарский край",
+    "BadRoadsPercent": 26.3
+  },
+  {
+    "Year": 2022,
+    "Subject": "Краснодарский край",
+    "BadRoadsPercent": 25.4
+  },
+  {
+    "Year": 2023,
+    "Subject": "Краснодарский край",
+    "BadRoadsPercent": 24.6
+  },
+
+  {
+    "Year": 2009,
+    "Subject": "Республика Бурятия",
+    "BadRoadsPercent": 83.1
+  },
+  {
+    "Year": 2010,
+    "Subject": "Республика Бурятия",
+    "BadRoadsPercent": 82.4
+  },
+  {
+    "Year": 2011,
+    "Subject": "Республика Бурятия",
+    "BadRoadsPercent": 81.9
+  },
+  {
+    "Year": 2012,
+    "Subject": "Республика Бурятия",
+    "BadRoadsPercent": 81.2
+  },
+  {
+    "Year": 2013,
+    "Subject": "Республика Бурятия",
+    "BadRoadsPercent": 80.6
+  },
+  {
+    "Year": 2014,
+    "Subject": "Республика Бурятия",
+    "BadRoadsPercent": 80.1
+  },
+  {
+    "Year": 2015,
+    "Subject": "Республика Бурятия",
+    "BadRoadsPercent": 79.7
+  },
+  {
+    "Year": 2016,
+    "Subject": "Республика Бурятия",
+    "BadRoadsPercent": 79.2
+  },
+  {
+    "Year": 2017,
+    "Subject": "Республика Бурятия",
+    "BadRoadsPercent": 78.8
+  },
+  {
+    "Year": 2018,
+    "Subject": "Республика Бурятия",
+    "BadRoadsPercent": 78.4
+  },
+  {
+    "Year": 2019,
+    "Subject": "Республика Бурятия",
+    "BadRoadsPercent": 78.0
+  },
+  {
+    "Year": 2020,
+    "Subject": "Республика Бурятия",
+    "BadRoadsPercent": 77.6
+  },
+  {
+    "Year": 2021,
+    "Subject": "Республика Бурятия",
+    "BadRoadsPercent": 77.3
+  },
+  {
+    "Year": 2022,
+    "Subject": "Республика Бурятия",
+    "BadRoadsPercent": 77.0
+  },
+  {
+    "Year": 2023,
+    "Subject": "Республика Бурятия",
+    "BadRoadsPercent": 76.8
+  },
+
+  {
+    "Year": 2009,
+    "Subject": "Новосибирская область",
+    "BadRoadsPercent": 70.2
+  },
+  {
+    "Year": 2010,
+    "Subject": "Новосибирская область",
+    "BadRoadsPercent": 68.9
+  },
+  {
+    "Year": 2011,
+    "Subject": "Новосибирская область",
+    "BadRoadsPercent": 67.1
+  },
+  {
+    "Year": 2012,
+    "Subject": "Новосибирская область",
+    "BadRoadsPercent": 65.4
+  },
+  {
+    "Year": 2013,
+    "Subject": "Новосибирская область",
+    "BadRoadsPercent": 63.8
+  },
+  {
+    "Year": 2014,
+    "Subject": "Новосибирская область",
+    "BadRoadsPercent": 62.1
+  },
+  {
+    "Year": 2015,
+    "Subject": "Новосибирская область",
+    "BadRoadsPercent": 60.5
+  },
+  {
+    "Year": 2016,
+    "Subject": "Новосибирская область",
+    "BadRoadsPercent": 58.9
+  },
+  {
+    "Year": 2017,
+    "Subject": "Новосибирская область",
+    "BadRoadsPercent": 57.2
+  },
+  {
+    "Year": 2018,
+    "Subject": "Новосибирская область",
+    "BadRoadsPercent": 55.6
+  },
+  {
+    "Year": 2019,
+    "Subject": "Новосибирская область",
+    "BadRoadsPercent": 54.1
+  },
+  {
+    "Year": 2020,
+    "Subject": "Новосибирская область",
+    "BadRoadsPercent": 52.7
+  },
+  {
+    "Year": 2021,
+    "Subject": "Новосибирская область",
+    "BadRoadsPercent": 51.4
+  },
+  {
+    "Year": 2022,
+    "Subject": "Новосибирская область",
+    "BadRoadsPercent": 50.2
+  },
+  {
+    "Year": 2023,
+    "Subject": "Новосибирская область",
+    "BadRoadsPercent": 49.1
+  },
+
+  {
+    "Year": 2009,
+    "Subject": "Ленинградская область",
+    "BadRoadsPercent": 58.7
+  },
+  {
+    "Year": 2010,
+    "Subject": "Ленинградская область",
+    "BadRoadsPercent": 56.2
+  },
+  {
+    "Year": 2011,
+    "Subject": "Ленинградская область",
+    "BadRoadsPercent": 53.8
+  },
+  {
+    "Year": 2012,
+    "Subject": "Ленинградская область",
+    "BadRoadsPercent": 51.4
+  },
+  {
+    "Year": 2013,
+    "Subject": "Ленинградская область",
+    "BadRoadsPercent": 49.0
+  },
+  {
+    "Year": 2014,
+    "Subject": "Ленинградская область",
+    "BadRoadsPercent": 46.8
+  },
+  {
+    "Year": 2015,
+    "Subject": "Ленинградская область",
+    "BadRoadsPercent": 44.5
+  },
+  {
+    "Year": 2016,
+    "Subject": "Ленинградская область",
+    "BadRoadsPercent": 42.3
+  },
+  {
+    "Year": 2017,
+    "Subject": "Ленинградская область",
+    "BadRoadsPercent": 40.2
+  },
+  {
+    "Year": 2018,
+    "Subject": "Ленинградская область",
+    "BadRoadsPercent": 38.4
+  },
+  {
+    "Year": 2019,
+    "Subject": "Ленинградская область",
+    "BadRoadsPercent": 36.7
+  },
+  {
+    "Year": 2020,
+    "Subject": "Ленинградская область",
+    "BadRoadsPercent": 35.1
+  },
+  {
+    "Year": 2021,
+    "Subject": "Ленинградская область",
+    "BadRoadsPercent": 33.8
+  },
+  {
+    "Year": 2022,
+    "Subject": "Ленинградская область",
+    "BadRoadsPercent": 32.6
+  },
+  {
+    "Year": 2023,
+    "Subject": "Ленинградская область",
+    "BadRoadsPercent": 31.4
+  }
+]
