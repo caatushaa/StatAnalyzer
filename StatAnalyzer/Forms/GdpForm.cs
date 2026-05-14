@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Windows.Forms;
 
 namespace StatAnalyzer.Forms
 {
-    internal class GdpForm
+    public class GdpForm : Form
     {
+        public GdpForm()
+        {
+            this.Text = "ВВП и ВНП России";
+        }
     }
-}
+} //ЗАМЕНИ ТУТ КОД ЭТО ВРЕМЕННЫЙ 
