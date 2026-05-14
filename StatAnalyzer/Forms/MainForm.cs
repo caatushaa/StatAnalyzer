@@ -12,7 +12,7 @@ namespace StatAnalyzer.Forms
     {
         public MainForm()
         {
-            InitializeComponent();
+            
             this.Text = "Статистический анализатор";
             this.Size = new Size(400, 300);
 
@@ -31,7 +31,6 @@ namespace StatAnalyzer.Forms
                 Location = new Point(50, 150)
             };
             btnRoads.Click += (s, e) => new RoadsForm().Show();
-
             Controls.Add(btnGdp);
             Controls.Add(btnRoads);
         }
