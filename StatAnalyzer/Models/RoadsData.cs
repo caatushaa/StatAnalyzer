@@ -1,12 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StatAnalyzer.Models
 {
-    internal class RoadsData
+    /// Модель одной записи о доле плохих дорог в субъекте РФ за конкретный год.
+    public class RoadsData
     {
+        /// Год наблюдения
+        public int Year { get; set; }
+
+        /// Название субъекта РФ
+        public string Subject { get; set; }
+
+        /// Доля плохих дорог в процентах
+        public double BadRoadsPercent { get; set; }
     }
 }
