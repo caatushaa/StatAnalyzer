@@ -1,12 +1,77 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace StatAnalyzer.Data
-{
-    class gdp_data
+﻿[
     {
+        "Year": 2009,
+        "GDP": 38807.2,
+        "GNP": 37900.1
+    },
+    {
+        "Year": 2010,
+        "GDP": 46308.5,
+        "GNP": 45200.3
+    },
+    {
+        "Year": 2011,
+        "GDP": 55967.2,
+        "GNP": 54800.0
+    },
+    {
+        "Year": 2012,
+        "GDP": 62176.5,
+        "GNP": 61000.2
+    },
+    {
+        "Year": 2013,
+        "GDP": 66926.9,
+        "GNP": 65700.4
+    },
+    {
+        "Year": 2014,
+        "GDP": 71406.4,
+        "GNP": 70100.5
+    },
+    {
+        "Year": 2015,
+        "GDP": 83087.4,
+        "GNP": 81500.0
+    },
+    {
+        "Year": 2016,
+        "GDP": 85616.1,
+        "GNP": 84000.3
+    },
+    {
+        "Year": 2017,
+        "GDP": 91843.2,
+        "GNP": 90100.7
+    },
+    {
+        "Year": 2018,
+        "GDP": 103861.7,
+        "GNP": 101900.1
+    },
+    {
+        "Year": 2019,
+        "GDP": 109241.5,
+        "GNP": 107500.2
+    },
+    {
+        "Year": 2020,
+        "GDP": 106606.6,
+        "GNP": 104800.0
+    },
+    {
+        "Year": 2021,
+        "GDP": 130775.0,
+        "GNP": 128500.4
+    },
+    {
+        "Year": 2022,
+        "GDP": 151455.5,
+        "GNP": 149000.0
+    },
+    {
+        "Year": 2023,
+        "GDP": 171042.5,
+        "GNP": 168000.0
     }
-}
+]
