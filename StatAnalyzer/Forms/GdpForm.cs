@@ -179,6 +179,7 @@ namespace StatAnalyzer.Forms
             lblStats.Text =
                 $"Макс. рост ВВП: {maxG:+0.00;-0.00}% ({maxGY} г.)   " +
                 $"Макс. падение ВВП: {maxD:+0.00;-0.00}% ({maxDY} г.)";
-        }
+        } 
     }
-}
+} 
+
