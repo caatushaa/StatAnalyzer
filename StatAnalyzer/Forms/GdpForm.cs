@@ -131,7 +131,9 @@ namespace StatAnalyzer.Forms
             plot.Plot.XLabel("Год");
             plot.Plot.YLabel("млрд руб.");
             plot.Plot.Title("ВВП и ВНП России");
+            plot.Plot.Axes.AutoScale();
             plot.Refresh();
+           
         }
 
         private void BtnForecast_Click(object sender, EventArgs e)
